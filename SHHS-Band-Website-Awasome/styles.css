@@ -1,8 +1,5 @@
-h1{font-family: fantasy;}
-table, th, td {
-    border: 1px solid black;
-  }
-  
-  th, td{
+th, td{
       padding: 15px;
-  }
+}
+
+.nav{border-block-color: gray;}
