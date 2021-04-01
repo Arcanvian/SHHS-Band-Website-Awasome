@@ -25,13 +25,14 @@ li a:hover {
 /*al*/
 .gallery {
       margin: 5px;
-      border: 1px solid #ccc;
+      border: px solid #ccc;
       float: left;
-      width: 180px;
+      width: 200px;
 }
     
 .gallery:hover {
       border: 1px solid #777;
+      width: 300px;
 }
     
 .gallery img {
