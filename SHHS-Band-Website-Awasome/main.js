@@ -1,1 +1,1 @@
-alert("Become Band MEMBER"
+alert("Become Band MEMBER")
