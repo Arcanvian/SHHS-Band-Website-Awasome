@@ -321,25 +321,25 @@
   
   !function() {
     var data = [
-      { eventName: 'Lunch Meeting w/ Mark', calendar: 'Work', color: 'orange' },
-      { eventName: 'Interview - Jr. Web Developer', calendar: 'Work', color: 'orange' },
-      { eventName: 'Demo New App to the Board', calendar: 'Work', color: 'orange' },
-      { eventName: 'Dinner w/ Marketing', calendar: 'Work', color: 'orange' },
+      { eventName: 'Band Practice 3:00-4:00', calendar: 'Practice', color: 'orange' },
+      { eventName: 'Band Practice 3:00-5:00', calendar: 'Practice', color: 'orange' },
+      { eventName: 'Band Camp 9:00-6:00', calendar: 'Practice', color: 'orange' },
+      { eventName: 'Group Practice 3:00-4:00', calendar: 'Practice', color: 'orange' },
   
-      { eventName: 'Game vs Portalnd', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs Houston', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs Denver', calendar: 'Sports', color: 'blue' },
-      { eventName: 'Game vs San Degio', calendar: 'Sports', color: 'blue' },
+      { eventName: 'concert at SHHS 5:00', calendar: 'Concert', color: 'blue' },
+      { eventName: 'concert at Lexiton 5:00', calendar: 'Concert', color: 'blue' },
+      { eventName: 'concert at SHHS with middle school 5:00', calendar: 'Concert', color: 'blue' },
+      { eventName: 'concert at lexiton 4:00', calendar: 'Concert', color: 'blue' },
   
-      { eventName: 'School Play', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Parent/Teacher Conference', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Pick up from Soccer Practice', calendar: 'Kids', color: 'yellow' },
-      { eventName: 'Ice Cream Night', calendar: 'Kids', color: 'yellow' },
+      { eventName: 'Funraiser Meeting 3:00', calendar: 'Meetings', color: 'yellow' },
+      { eventName: 'Events Meeting 3:00', calendar: 'Meetings', color: 'yellow' },
+      { eventName: 'Perant Meeting 3:00', calendar: 'Meetings', color: 'yellow' },
+      { eventName: 'Seinor Meeting 3:00', calendar: 'Meetings', color: 'yellow' },
   
-      { eventName: 'Free Tamale Night', calendar: 'Other', color: 'green' },
-      { eventName: 'Bowling Team', calendar: 'Other', color: 'green' },
-      { eventName: 'Teach Kids to Code', calendar: 'Other', color: 'green' },
-      { eventName: 'Startup Weekend', calendar: 'Other', color: 'green' }
+      { eventName: 'Band building', calendar: 'Other', color: 'green' },
+      { eventName: 'Day for Fun', calendar: 'Other', color: 'green' },
+      { eventName: 'Teach potential band kids', calendar: 'Other', color: 'green' },
+      { eventName: 'Funraiser', calendar: 'Other', color: 'green' }
     ];
   
     
