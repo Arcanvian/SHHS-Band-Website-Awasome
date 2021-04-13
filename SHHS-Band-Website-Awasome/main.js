@@ -97,18 +97,18 @@
     }
   
     Calendar.prototype.fowardFill = function() {
-      var clone = this.current.clone().add('months', 1).subtract('days', 1);
-      var dayOfWeek = clone.day();
+      let clone = this.current.clone().add('months', 1).subtract('days', 1);
+      let dayOfWeek = clone.day();
   
       if(dayOfWeek === 6) { return; }
   
-      for(var i = dayOfWeek; i < 6 ; i++) {
+      for(let i = dayOfWeek; i < 6 ; i++) {
         this.drawDay(clone.add('days', 1));
       }
     }
   
     Calendar.prototype.currentMonth = function() {
-      var clone = this.current.clone();
+      let clone = this.current.clone();
   
       while(clone.month() === this.current.month()) {
         this.drawDay(clone);
@@ -124,24 +124,24 @@
     }
   
     Calendar.prototype.drawDay = function(day) {
-      var self = this;
+      let self = this;
       this.getWeek(day);
   
       //Outer Day
-      var outer = createElement('div', this.getDayClass(day));
+      let outer = createElement('div', this.getDayClass(day));
       outer.addEventListener('click', function() {
         self.openDay(this);
       });
   
       //Day Name
-      var name = createElement('div', 'day-name', day.format('ddd'));
+      let name = createElement('div', 'day-name', day.format('ddd'));
   
       //Day Number
-      var number = createElement('div', 'day-number', day.format('DD'));
+      let number = createElement('div', 'day-number', day.format('DD'));
   
   
       //Events
-      var events = createElement('div', 'day-events');
+      let events = createElement('div', 'day-events');
       this.drawEvents(day, events);
   
       outer.appendChild(name);
@@ -152,7 +152,7 @@
   
     Calendar.prototype.drawEvents = function(day, element) {
       if(day.month() === this.current.month()) {
-        var todaysEvents = this.events.reduce(function(memo, ev) {
+        let todaysEvents = this.events.reduce(function(memo, ev) {
           if(ev.date.isSame(day, 'day')) {
             memo.push(ev);
           }
@@ -160,7 +160,7 @@
         }, []);
   
         todaysEvents.forEach(function(ev) {
-          var evSpan = createElement('span', ev.color);
+          let evSpan = createElement('span', ev.color);
           element.appendChild(evSpan);
         });
       }
@@ -177,11 +177,11 @@
     }
   
     Calendar.prototype.openDay = function(el) {
-      var details, arrow;
-      var dayNumber = +el.querySelectorAll('.day-number')[0].innerText || +el.querySelectorAll('.day-number')[0].textContent;
-      var day = this.current.clone().date(dayNumber);
+      let details, arrow;
+      let dayNumber = +el.querySelectorAll('.day-number')[0].innerText || +el.querySelectorAll('.day-number')[0].textContent;
+      let day = this.current.clone().date(dayNumber);
   
-      var currentOpened = document.querySelector('.details');
+      let currentOpened = document.querySelector('.details');
   
       //Check to see if there is an open detais box on the current row
       if(currentOpened && currentOpened.parentNode === el.parentNode) {
@@ -210,7 +210,7 @@
         details = createElement('div', 'details in');
   
         //Create the arrow
-        var arrow = createElement('div', 'arrow');
+        let arrow = createElement('div', 'arrow');
   
         //Create the event wrapper
   
@@ -218,7 +218,7 @@
         el.parentNode.appendChild(details);
       }
   
-      var todaysEvents = this.events.reduce(function(memo, ev) {
+      let todaysEvents = this.events.reduce(function(memo, ev) {
         if(ev.date.isSame(day, 'day')) {
           memo.push(ev);
         }
@@ -232,13 +232,13 @@
   
     Calendar.prototype.renderEvents = function(events, ele) {
       //Remove any events in the current details element
-      var currentWrapper = ele.querySelector('.events');
-      var wrapper = createElement('div', 'events in' + (currentWrapper ? ' new' : ''));
+      let currentWrapper = ele.querySelector('.events');
+      let wrapper = createElement('div', 'events in' + (currentWrapper ? ' new' : ''));
   
       events.forEach(function(ev) {
-        var div = createElement('div', 'event');
-        var square = createElement('div', 'event-category ' + ev.color);
-        var span = createElement('span', '', ev.eventName);
+        let div = createElement('div', 'event');
+        let square = createElement('div', 'event-category ' + ev.color);
+        let span = createElement('span', '', ev.eventName);
   
         div.appendChild(square);
         div.appendChild(span);
@@ -246,8 +246,8 @@
       });
   
       if(!events.length) {
-        var div = createElement('div', 'event empty');
-        var span = createElement('span', '', 'No Events');
+        let div = createElement('div', 'event empty');
+        let span = createElement('span', '', 'No Events');
   
         div.appendChild(span);
         wrapper.appendChild(div);
@@ -277,8 +277,8 @@
     }
   
     Calendar.prototype.drawLegend = function() {
-      var legend = createElement('div', 'legend');
-      var calendars = this.events.map(function(e) {
+      let legend = createElement('div', 'legend');
+      let calendars = this.events.map(function(e) {
         return e.calendar + '|' + e.color;
       }).reduce(function(memo, e) {
         if(memo.indexOf(e) === -1) {
@@ -286,8 +286,8 @@
         }
         return memo;
       }, []).forEach(function(e) {
-        var parts = e.split('|');
-        var entry = createElement('span', 'entry ' +  parts[1], parts[0]);
+        let parts = e.split('|');
+        let entry = createElement('span', 'entry ' +  parts[1], parts[0]);
         legend.appendChild(entry);
       });
       this.el.appendChild(legend);
@@ -308,7 +308,7 @@
     window.Calendar = Calendar;
   
     function createElement(tagName, className, innerText) {
-      var ele = document.createElement(tagName);
+      let ele = document.createElement(tagName);
       if(className) {
         ele.className = className;
       }
@@ -320,7 +320,7 @@
   }();
   
   !function() {
-    var data = [
+    let data = [
       { eventName: 'Band Practice 3:00-4:00', calendar: 'Practice', color: 'orange' },
       { eventName: 'Band Practice 3:00-5:00', calendar: 'Practice', color: 'orange' },
       { eventName: 'Band Camp 9:00-6:00', calendar: 'Practice', color: 'orange' },
@@ -348,7 +348,7 @@
       
     }
   
-    var calendar = new Calendar('#calendar', data);
+    let calendar = new Calendar('#calendar', data);
   
   }();
 //al//
