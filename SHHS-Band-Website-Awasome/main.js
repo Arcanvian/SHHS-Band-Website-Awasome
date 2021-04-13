@@ -1,13 +1,13 @@
 !function() {
 
-    var today = moment();
+    let today = moment();
   
     function Calendar(selector, events) {
       this.el = document.querySelector(selector);
       this.events = events;
       this.current = moment().date(1);
       this.draw();
-      var current = document.querySelector('.today');
+      let current = document.querySelector('.today');
       if(current) {
         var self = this;
         window.setTimeout(function() {
@@ -27,7 +27,7 @@
     }
   
     Calendar.prototype.drawHeader = function() {
-      var self = this;
+      let self = this;
       if(!this.header) {
         //Create the header elements
         this.header = createElement('div', 'header');
@@ -35,10 +35,10 @@
   
         this.title = createElement('h1');
   
-        var right = createElement('div', 'right');
+        let right = createElement('div', 'right');
         right.addEventListener('click', function() { self.nextMonth(); });
   
-        var left = createElement('div', 'left');
+        let left = createElement('div', 'left');
         left.addEventListener('click', function() { self.prevMonth(); });
   
         //Append the Elements
@@ -52,7 +52,7 @@
     }
   
     Calendar.prototype.drawMonth = function() {
-      var self = this;
+      let self = this;
       
       this.events.forEach(function(ev) {
        ev.date = self.current.clone().date(Math.random() * (29 - 1) + 1);
@@ -84,14 +84,14 @@
     }
   
     Calendar.prototype.backFill = function() {
-      var clone = this.current.clone();
-      var dayOfWeek = clone.day();
+      let clone = this.current.clone();
+      let dayOfWeek = clone.day();
   
       if(!dayOfWeek) { return; }
   
       clone.subtract('days', dayOfWeek+1);
   
-      for(var i = dayOfWeek; i > 0 ; i--) {
+      for(let i = dayOfWeek; i > 0 ; i--) {
         this.drawDay(clone.add('days', 1));
       }
     }
