@@ -34,7 +34,301 @@ li a:hover {
       background-color: gold;
       color: black;
 }
+/*Member Bios*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*First Chairs*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-First-Chairs{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-First-Chairs .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align:center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-First-Chairs .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-First-Chairs:hover .tooltiptext {
+  visibility: visible;
+}
+/*Jesse*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Jesse{
+  position: relative;
+  display: inline-block;
+}
+/* Tooltip text */
+.tooltip-Jesse .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Jesse .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Jesse:hover .tooltiptext {
+  visibility: visible;
+}
 /*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Sarah{
+  position: relative;
+  display: inline-block;
+}
+/* Tooltip text */
+.tooltip-Sarah .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Sarah .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Sarah:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
+.tooltip-Director{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-Director .tooltiptext {
+  visibility: hidden;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-Director:hover .tooltiptext {
+  visibility: visible;
+}
+
 
 
 /*al*/
