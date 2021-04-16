@@ -38,7 +38,7 @@ li a:hover {
 .tooltip-Director{
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  
 }
 /* Tooltip text */
 .tooltip-Director .tooltiptext {
@@ -65,7 +65,7 @@ li a:hover {
 .tooltip-First-Chairs{
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+ 
 }
 /* Tooltip text */
 .tooltip-First-Chairs .tooltiptext {
@@ -140,13 +140,8 @@ li a:hover {
 .tooltip-Sarah:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Codey .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -159,21 +154,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Codey .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Codey:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Julius .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -186,21 +175,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Julius .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Julius:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Haylee .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -213,21 +196,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Haylee .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Haylee:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Christopher .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -240,21 +217,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Christopher .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Christopher:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Lilian .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -267,21 +238,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Lilian .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Lilian:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Grant .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -294,21 +259,15 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Grant .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Grant:hover .tooltiptext {
   visibility: visible;
 }
-/*Member Bios*/ /*tooltip, use this please. This is a reminder*/
-.tooltip-Director{
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 /* Tooltip text */
-.tooltip-Director .tooltiptext {
+.tooltip-Kyle .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -321,15 +280,13 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.tooltip-Director .tooltiptext {
+.tooltip-Kyle .tooltiptext {
   visibility: hidden;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-Director:hover .tooltiptext {
+.tooltip-Kyle:hover .tooltiptext {
   visibility: visible;
 }
-
-
 
 /*al*/
 
