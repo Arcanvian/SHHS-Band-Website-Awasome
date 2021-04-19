@@ -288,7 +288,7 @@ li a:hover {
 
 /*al*/
 
-body {
+body{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,15 +296,15 @@ body {
   font-family: sans-serif;
 }
 h3 {
-  color: coral;
+  color: rgb(247, 196, 88);
   text-align: center;
 }
-.grid-container {
-  columns: 5 200px;
+.grid {
+  columns: 6 150px;
   column-gap: 1.5rem;
   width: 95%;
   margin: 0 auto;
-  height: 95%;
+  height: 70%;
 }
 .b {
   width: 150px;
