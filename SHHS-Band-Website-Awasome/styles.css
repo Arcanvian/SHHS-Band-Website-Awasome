@@ -295,7 +295,7 @@ body{
   flex-direction: column;
   font-family: sans-serif;
 }
-h3 {
+.a {
   color: rgb(247, 196, 88);
   text-align: center;
 }
