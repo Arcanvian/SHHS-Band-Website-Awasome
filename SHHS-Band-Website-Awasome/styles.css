@@ -34,6 +34,13 @@ li a:hover {
       background-color: gold;
       color: black;
 }
+/*Background image*/
+body {
+  background-image: url('https://i.pinimg.com/originals/a9/6e/cb/a96ecb93e427ae078314c7f1b133464a.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 
 /*Member page*/
 .tooltip-Director{
@@ -296,7 +303,7 @@ body{
   font-family: sans-serif;
 }
 .a {
-  color: rgb(247, 196, 88);
+  color: rgb(30, 27, 216);
   text-align: center;
 }
 .grid {
@@ -330,24 +337,24 @@ img {
 
 /*cal*/
 *, *:before, *:after {
-      -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-      }
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
       
-      body {
-       overflow: hidden;
-       font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-       font-weight: 100;
-       color: rgba(255, 255, 255, 1);
-       margin: 0;
-       padding: 0;
-       background: #4A4A4A;
-       -webkit-touch-callout: none;
-       -webkit-user-select: none;
-       -khtml-user-select: none;
-       -moz-user-select: none;
-       -ms-user-select: none;
-       user-select: none;
-      }
+#calendar {
+  overflow: hidden;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0;
+  background: gray;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
       
       #calendar {
         -webkit-transform: translate3d(0, 0, 0);
