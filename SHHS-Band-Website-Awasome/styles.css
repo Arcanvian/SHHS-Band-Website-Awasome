@@ -10,14 +10,17 @@ header{display: block;
 
 /*nav*/
 
-ul {
-      list-style-type: none;
+.nav {
       margin: 0;
-      padding: 0;
       overflow: hidden;
+      padding: 0;
       background-color: rgba(43, 43, 43, 0.644);
 }
-    
+
+ul{
+  list-style-type: none;
+}
+
 li {
       float: left;
 }
