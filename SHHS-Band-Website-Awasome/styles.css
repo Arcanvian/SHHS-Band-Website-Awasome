@@ -36,7 +36,7 @@ li a:hover {
 }
 /*Background image*/
 body {
-  background-image: url('https://i.pinimg.com/originals/a9/6e/cb/a96ecb93e427ae078314c7f1b133464a.jpg');
+  background-image: url('http://bradybarr.com/wp-content/uploads/2013/07/parchment-background.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -715,3 +715,33 @@ img {
       @keyframes fadeOutShink  {
         to { opacity: 0; padding: 0px; height: 0px; }
       }
+/*shop*/
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #333;
+  color: #d9d9d9;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-img:hover {
+  opacity: .7;
+}
