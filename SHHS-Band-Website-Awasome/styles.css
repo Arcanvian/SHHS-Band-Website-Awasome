@@ -55,9 +55,9 @@ body {
 .tooltip-Director .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
-  text-align: center;
+  text-align: right;
   padding: 5px 0;
   border-radius: 6px;
 
@@ -80,12 +80,12 @@ body {
 
 .tooltip-First-Chairs .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: 500px;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align:center;
-  padding: 5px 0;
-  border-radius: 6px;
+  padding: 20px 0;
+  border-radius: 50px;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
@@ -105,11 +105,11 @@ body {
 
 .tooltip-Jesse .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: 500px;
+  background-color:rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 25px 0;
   border-radius: 6px;
 
   /* Position the tooltip text - see examples below! */
@@ -131,7 +131,7 @@ body {
 .tooltip-Sarah .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -152,7 +152,7 @@ body {
 .tooltip-Codey .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -173,7 +173,7 @@ body {
 .tooltip-Julius .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -194,7 +194,7 @@ body {
 .tooltip-Haylee .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -215,7 +215,7 @@ body {
 .tooltip-Christopher .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -236,7 +236,7 @@ body {
 .tooltip-Lilian .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -257,7 +257,7 @@ body {
 .tooltip-Grant .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
   padding: 5px 0;
@@ -277,12 +277,12 @@ body {
 /* Kyle */
 .tooltip-Kyle .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: 500px;
+  background-color: rgba(43, 43, 43, 0.644);
   color: #fff;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+  padding: 25px 0;
+  border-radius: 20px;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
