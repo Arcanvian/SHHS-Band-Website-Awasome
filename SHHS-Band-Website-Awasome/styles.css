@@ -1,19 +1,29 @@
 /*header*/
-header{display: block;
-      margin: 0px;
-      padding: 1px;
-      background-color: gold;
-      text-align: center;
-      text-transform: uppercase;
+header{
+  display: block;
+  margin: 0px;
+  padding: 1px;
+  background-color: gold;
+  text-align: center;
+  text-transform: uppercase;
 }
-/* Mr.Ashby's Story */
-.Ashby-Story{
-  border-style: solid;
-  border-color: rgba(43, 43, 43, 0.644);
+/*home*/
+.font{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
 }
-/*footer*/
-.cats{
-  
+
+/*info*/
+.Info {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.Info {
+  display: block;
+  margin: 1px;
+  padding: 60px;
 }
 
 /*nav*/
