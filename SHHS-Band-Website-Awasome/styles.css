@@ -6,6 +6,11 @@ header{display: block;
       text-align: center;
       text-transform: uppercase;
 }
+/* Mr.Ashby's Story */
+.Ashby-Story{
+  border-style: solid;
+  border-color: rgba(43, 43, 43, 0.644);
+}
 /*footer*/
 .cats{
   
